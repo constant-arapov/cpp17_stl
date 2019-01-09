@@ -24,6 +24,8 @@
 #include "example_thread_manage.hpp"
 #include "example_lock.hpp"
 #include "example_no_deadlock.hpp"
+#include "example_concurrent_cout.hpp"
+#include "example_call_once.hpp"
 
 
 
@@ -71,9 +73,12 @@ int main()
 //	example_thread_manage();
 
 	//example_lock();
-	//tag
-	example_no_deadlock();
+	
+	//example_no_deadlock();
+	
+	//example_concurrent_cout();
 
+	example_call_once();
 
 
 	return 0;

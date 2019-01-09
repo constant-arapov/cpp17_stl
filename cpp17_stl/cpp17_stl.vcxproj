@@ -117,6 +117,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="example_call_once.cpp" />
     <ClCompile Include="example_concurrent_cout.cpp" />
     <ClCompile Include="example_const_expr.cpp" />
     <ClCompile Include="example_erase_remove.cpp" />
@@ -144,6 +145,7 @@
   <ItemGroup>
     <ClInclude Include="eaxmple_rm_frm_unsrt_vct.hpp" />
     <ClInclude Include="example_algos.hpp" />
+    <ClInclude Include="example_call_once.hpp" />
     <ClInclude Include="example_concurrent_cout.hpp" />
     <ClInclude Include="example_const_expr.hpp" />
     <ClInclude Include="example_erease_remove.hpp" />

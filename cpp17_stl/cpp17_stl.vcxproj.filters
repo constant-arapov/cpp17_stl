@@ -84,6 +84,9 @@
     <ClCompile Include="example_concurrent_cout.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="example_call_once.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="eaxmple_rm_frm_unsrt_vct.hpp">
@@ -150,6 +153,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="example_concurrent_cout.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example_call_once.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
