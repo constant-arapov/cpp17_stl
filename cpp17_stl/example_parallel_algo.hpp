@@ -1,0 +1,1 @@
+void example_parallel_algo();
